@@ -149,15 +149,6 @@ Online media streaming
 Modern responsive layout
 
 
-
-📸 Screenshots
-🏠 Home Page
-<img
-src="https://github.com/user-attachments/assets/YOUR-IMAGE-ID"
-width="100%">
-
-
-
 🌟 Future Improvements
 
 
