@@ -6,7 +6,7 @@ ZenFlow Meditation App is a premium cinematic meditation and relaxation web appl
 
 # 🌐 Live Preview
 
-👉 Add your deployed link here
+👉👉 Live Demo: https://jgopi07.github.io/zenflow-meditation-app/
 
 ---
 
@@ -38,7 +38,7 @@ ZenFlow Meditation App is a premium cinematic meditation and relaxation web appl
 - JavaScript
 - Font Awesome
 - Google Fonts
-- Online Audio & Video APIs
+- Online Audio APIs
 
 ---
 
@@ -51,6 +51,7 @@ ZenFlow-Meditation-App/
 ├── style.css
 ├── app.js
 └── README.md
+```
 
 🚀 Getting Started
 1️⃣ Clone Repository
