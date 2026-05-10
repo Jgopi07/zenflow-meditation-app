@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+ZenFlow Meditation
+</title>
+
+<link
+rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link
+rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="style.css">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="background-overlay"></div>
+
+<video
+class="background-video"
+autoplay
+muted
+loop
+playsinline>
+
+<source
+src="./video/rain.mp4"
+type="video/mp4">
+
+</video>
+
+<header class="main-header">
+
+<nav class="navbar">
+
+<div class="logo-section">
+
+<div class="logo-glow"></div>
+
+<h1>
+ZenFlow
+</h1>
+
+</div>
+
+<ul class="nav-menu">
+
+<li>
+<a href="#">
+Home
+</a>
+</li>
+
+<li>
+<a href="#">
+Meditation
+</a>
+</li>
+
+<li>
+<a href="#">
+Focus
+</a>
+</li>
+
+<li>
+<a href="#">
+Sleep
+</a>
+</li>
+
+<li>
+<a href="#">
+Relax
+</a>
+</li>
+
+<li>
+<a href="#">
+Music
+</a>
+</li>
+
+</ul>
+
+<div class="nav-actions">
+
+<button class="nav-button">
+
+Start Journey
+
+</button>
+
+<div class="mobile-menu">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero-container">
+
+<div class="left-container">
+
+<div class="hero-tag">
+
+<div class="hero-dot"></div>
+
+Premium Peace Experience
+
+</div>
+
+<h1 class="hero-heading">
+
+Transform
+Your Mind Into
+<span>
+Pure Calm Energy
+</span>
+
+</h1>
+
+<p class="hero-description">
+
+Experience cinematic meditation with immersive ambience,
+beautiful visuals, breathing exercises, focus sessions,
+mind relaxation and deep healing atmospheres crafted
+for peace and productivity.
+
+</p>
+
+<div class="hero-buttons">
+
+<button class="start-btn">
+
+<i class="fa-solid fa-play"></i>
+
+Start Meditation
+
+</button>
+
+<button class="explore-btn">
+
+<i class="fa-solid fa-headphones"></i>
+
+Explore Sounds
+
+</button>
+
+</div>
+
+<div class="stats-wrapper">
+
+<div class="stat-box">
+
+<h2>
+50K+
+</h2>
+
+<p>
+Happy Users
+</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>
+120+
+</h2>
+
+<p>
+Meditation Tracks
+</p>
+
+</div>
+
+<div class="stat-box">
+
+<h2>
+4.9★
+</h2>
+
+<p>
+User Rating
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="right-container">
+
+<div class="music-player-card">
+
+<div class="player-header">
+
+<div class="player-title">
+
+<p>
+Now Playing
+</p>
+
+<h2 class="music-name">
+
+Rain Forest Relaxation
+
+</h2>
+
+</div>
+
+<div class="live-badge">
+
+<div class="live-dot"></div>
+
+Live
+
+</div>
+
+</div>
+
+<div class="player-middle">
+
+<div class="circle-animation"></div>
+
+<svg
+class="progress-ring"
+width="340"
+height="340">
+
+<circle
+class="ring-bg"
+cx="170"
+cy="170"
+r="145">
+</circle>
+
+<circle
+class="ring-progress"
+cx="170"
+cy="170"
+r="145">
+</circle>
+
+</svg>
+
+<div class="player-center">
+
+<button class="play-button">
+
+<i class="fa-solid fa-play"></i>
+
+</button>
+
+<h1 class="time-display">
+
+10:00
+
+</h1>
+
+<p class="session-title">
+
+Deep Relax Session
+
+</p>
+
+</div>
+
+</div>
+
+<div class="time-buttons">
+
+<button
+class="timer-btn"
+data-time="300">
+
+5 Min
+
+</button>
+
+<button
+class="timer-btn active-timer"
+data-time="600">
+
+10 Min
+
+</button>
+
+<button
+class="timer-btn"
+data-time="900">
+
+15 Min
+
+</button>
+
+<button
+class="timer-btn"
+data-time="1200">
+
+20 Min
+
+</button>
+
+</div>
+
+<div class="sound-options">
+
+<div
+class="sound-card active-sound"
+data-sound="./sounds/rain.mp3"
+data-video="./video/rain.mp4">
+
+<div class="sound-icon rain">
+
+🌧️
+
+</div>
+
+<div class="sound-content">
+
+<h3>
+Rain
+</h3>
+
+<p>
+Forest Relaxation
+</p>
+
+</div>
+
+</div>
+
+<div
+class="sound-card"
+data-sound="./sounds/beach.mp3"
+data-video="./video/beach.mp4">
+
+<div class="sound-icon ocean">
+
+🌊
+
+</div>
+
+<div class="sound-content">
+
+<h3>
+Ocean
+</h3>
+
+<p>
+Ocean Healing Waves
+</p>
+
+</div>
+
+</div>
+
+<div
+class="sound-card"
+data-sound="./sounds/fire.mp3"
+data-video="./video/fire.mp4">
+
+<div class="sound-icon fire">
+
+🔥
+
+</div>
+
+<div class="sound-content">
+
+<h3>
+Fireplace
+</h3>
+
+<p>
+Warm Peace Therapy
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="bottom-controls">
+
+<div class="volume-wrapper">
+
+<label>
+
+Volume
+
+</label>
+
+<input
+type="range"
+min="0"
+max="1"
+step="0.1"
+value="0.5"
+class="volume-slider">
+
+</div>
+
+<div class="meditation-status">
+
+<div class="status-light"></div>
+
+Meditation Active
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="feature-section">
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+🧘
+
+</div>
+
+<h2>
+
+Guided Meditation
+
+</h2>
+
+<p>
+
+Calm your mind with premium meditation
+sessions designed for focus and peace.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+🌌
+
+</div>
+
+<h2>
+
+Ambient Atmosphere
+
+</h2>
+
+<p>
+
+Immerse yourself into beautiful cinematic
+environments with relaxing sounds.
+
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<div class="feature-icon">
+
+💤
+
+</div>
+
+<h2>
+
+Deep Sleep Therapy
+
+</h2>
+
+<p>
+
+Reduce stress and enjoy peaceful deep
+sleep sessions every night.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="quote-section">
+
+<div class="quote-box">
+
+<h2>
+
+“Peace begins with a deep breath.”
+
+</h2>
+
+<p>
+
+Relax your body. Calm your thoughts.
+Transform your energy.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="meditation-gallery">
+
+<div class="gallery-title">
+
+<h1>
+Meditation Experience
+</h1>
+
+<p>
+Explore immersive peaceful atmospheres
+crafted for deep calm and healing.
+</p>
+
+</div>
+
+<div class="gallery-grid">
+
+<div class="gallery-card">
+
+<img
+src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1200&auto=format&fit=crop">
+
+<div class="gallery-content">
+
+<h2>
+Mountain Calm
+</h2>
+
+<p>
+Experience peaceful mountain meditation.
+</p>
+
+</div>
+
+</div>
+
+<div class="gallery-card">
+
+<img
+src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?q=80&w=1200&auto=format&fit=crop">
+
+<div class="gallery-content">
+
+<h2>
+Ocean Therapy
+</h2>
+
+<p>
+Relax deeply with ocean wave ambience.
+</p>
+
+</div>
+
+</div>
+
+<div class="gallery-card">
+
+<img
+src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop">
+
+<div class="gallery-content">
+
+<h2>
+Forest Energy
+</h2>
+
+<p>
+Feel nature healing and peaceful silence.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="main-footer">
+
+<div class="footer-left">
+
+<h1>
+ZenFlow
+</h1>
+
+<p>
+
+Premium meditation experience for peaceful
+mindfulness and deep relaxation.
+
+</p>
+
+</div>
+
+<div class="footer-links">
+
+<div class="footer-column">
+
+<h3>
+Company
+</h3>
+
+<a href="#">
+About
+</a>
+
+<a href="#">
+Features
+</a>
+
+<a href="#">
+Careers
+</a>
+
+</div>
+
+<div class="footer-column">
+
+<h3>
+Support
+</h3>
+
+<a href="#">
+Help Center
+</a>
+
+<a href="#">
+Privacy
+</a>
+
+<a href="#">
+Terms
+</a>
+
+</div>
+
+<div class="footer-column">
+
+<h3>
+Social
+</h3>
+
+<a href="#">
+Instagram
+</a>
+
+<a href="#">
+Twitter
+</a>
+
+<a href="#">
+YouTube
+</a>
+
+</div>
+
+</div>
+
+</footer>
+
+<div class="floating-blur blur-one"></div>
+
+<div class="floating-blur blur-two"></div>
+
+<div class="floating-blur blur-three"></div>
+
+<audio
+class="main-audio"
+src="./sounds/rain.mp3">
+
+</audio>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
