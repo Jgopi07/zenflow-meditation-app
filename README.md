@@ -12,23 +12,15 @@ ZenFlow Meditation App is a premium cinematic meditation and relaxation web appl
 
 # ✨ Features
 
-- 🎵 Peaceful meditation music
-- 🪈 Krishna flute therapy ambience
-- 🌌 Cinematic relaxing background videos
-- ⏳ Animated meditation timer
-- 🎯 Focus & mindfulness sessions
-- 🌙 Deep relaxation atmosphere
-- 💎 Premium glassmorphism UI
-- 📱 Fully responsive design
-- 🎨 Modern gradient effects
-- ✨ Floating particle animations
-- 🎥 Dynamic video switching
-- 🔊 Volume control functionality
-- ⏯️ Play / Pause meditation controls
-- 💫 Meditation completion popup
-- 🧠 Deep healing ambience
-- ⚡ Smooth animations and transitions
-
+🌧️ Rain relaxation ambience
+🌊 Ocean healing waves
+🔥 Fireplace peace therapy
+🎥 Cinematic background videos
+⏳ Animated meditation timer
+💎 Modern glassmorphism UI
+📱 Fully responsive design
+🔊 Interactive audio controls
+✨ Smooth animations and transitions
 ---
 
 # 🛠️ Technologies Used
