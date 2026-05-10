@@ -152,10 +152,8 @@ Modern responsive layout
 
 📸 Screenshots
 🏠 Home Page
-Add screenshot here
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/207ca4b2-a483-4546-b921-6233c5d642f0" />
 
-🎵 Meditation Player
-<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/b8b2433c-f72b-4fbb-a0a2-45af0898c1a5" />
 
 
 🌟 Future Improvements
