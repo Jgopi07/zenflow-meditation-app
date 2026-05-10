@@ -152,7 +152,9 @@ Modern responsive layout
 
 📸 Screenshots
 🏠 Home Page
-<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/207ca4b2-a483-4546-b921-6233c5d642f0" />
+<img
+src="https://github.com/user-attachments/assets/YOUR-IMAGE-ID"
+width="100%">
 
 
 
